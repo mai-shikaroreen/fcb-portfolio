@@ -1,0 +1,58 @@
+/*{} selector {property (font family): value (roboto)}*/
+/*different font family for h1 and p*/
+/*# is to add id reference*/
+
+* {
+font-family: "Roboto", sans-serif;
+}
+
+body {
+	background-color: #9ADCDB;
+	background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 1000'%3E%3Cg %3E%3Ccircle fill='%239ADCDB' cx='50' cy='0' r='50'/%3E%3Cg fill='%239cd8dd' %3E%3Ccircle cx='0' cy='50' r='50'/%3E%3Ccircle cx='100' cy='50' r='50'/%3E%3C/g%3E%3Ccircle fill='%239fd3df' cx='50' cy='100' r='50'/%3E%3Cg fill='%23a1cee0' %3E%3Ccircle cx='0' cy='150' r='50'/%3E%3Ccircle cx='100' cy='150' r='50'/%3E%3C/g%3E%3Ccircle fill='%23a3cae1' cx='50' cy='200' r='50'/%3E%3Cg fill='%23a6c6e3' %3E%3Ccircle cx='0' cy='250' r='50'/%3E%3Ccircle cx='100' cy='250' r='50'/%3E%3C/g%3E%3Ccircle fill='%23a8c2e4' cx='50' cy='300' r='50'/%3E%3Cg fill='%23aabee5' %3E%3Ccircle cx='0' cy='350' r='50'/%3E%3Ccircle cx='100' cy='350' r='50'/%3E%3C/g%3E%3Ccircle fill='%23adbae6' cx='50' cy='400' r='50'/%3E%3Cg fill='%23afb7e8' %3E%3Ccircle cx='0' cy='450' r='50'/%3E%3Ccircle cx='100' cy='450' r='50'/%3E%3C/g%3E%3Ccircle fill='%23b2b4e9' cx='50' cy='500' r='50'/%3E%3Cg fill='%23b8b4ea' %3E%3Ccircle cx='0' cy='550' r='50'/%3E%3Ccircle cx='100' cy='550' r='50'/%3E%3C/g%3E%3Ccircle fill='%23bfb7eb' cx='50' cy='600' r='50'/%3E%3Cg fill='%23c7b9ec' %3E%3Ccircle cx='0' cy='650' r='50'/%3E%3Ccircle cx='100' cy='650' r='50'/%3E%3C/g%3E%3Ccircle fill='%23cebced' cx='50' cy='700' r='50'/%3E%3Cg fill='%23d4bfee' %3E%3Ccircle cx='0' cy='750' r='50'/%3E%3Ccircle cx='100' cy='750' r='50'/%3E%3C/g%3E%3Ccircle fill='%23dbc1ef' cx='50' cy='800' r='50'/%3E%3Cg fill='%23e1c4f0' %3E%3Ccircle cx='0' cy='850' r='50'/%3E%3Ccircle cx='100' cy='850' r='50'/%3E%3C/g%3E%3Ccircle fill='%23e7c7f1' cx='50' cy='900' r='50'/%3E%3Cg fill='%23ecc9f2' %3E%3Ccircle cx='0' cy='950' r='50'/%3E%3Ccircle cx='100' cy='950' r='50'/%3E%3C/g%3E%3Ccircle fill='%23F1CCF3' cx='50' cy='1000' r='50'/%3E%3C/g%3E%3C/svg%3E");
+	background-attachment: fixed;
+	background-size: contain;
+}
+
+h1, p {
+	font-family:"Montserrat", sans-serif;
+	color: darkmagenta;
+}
+
+
+#landing {
+	height: 80vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+
+
+	#profile {
+		height: 250 px;
+		width: 250 px;
+		border-radius: 50%;
+	}
+
+
+footer {
+	background-color: lightskyblue;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 10px;
+
+}
+
+.fa-globe, .fa-facebook, .fa-twitter, .fa-instagram, .fa-tiktok, .fa-youtube {
+	font-size: 25px;
+	color: white;
+	margin: 0 10px 0 10px;
+}
+
+.fa-globe:hover, .fa-facebook:hover, .fa-twitter:hover, .fa-instagram:hover, .fa-tiktok:hover, .fa-youtube:hover {
+    color: powderblue;
+
+/*  css framework bootstrap */
+
